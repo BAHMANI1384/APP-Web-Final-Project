@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APP-Web-Final-Project</title>
+  <style>
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+    @media only screen and (min-width: 600px) {
+      /* For tablets: */
+      .col-s-1 {width: 8.33%;}
+      .col-s-2 {width: 16.66%;}
+      .col-s-3 {width: 25%;}
+      .col-s-4 {width: 33.33%;}
+      .col-s-5 {width: 41.66%;}
+      .col-s-6 {width: 50%;}
+      .col-s-7 {width: 58.33%;}
+      .col-s-8 {width: 66.66%;}
+      .col-s-9 {width: 75%;}
+      .col-s-10 {width: 83.33%;}
+      .col-s-11 {width: 91.66%;}
+      .col-s-12 {width: 100%;}
+    }
+    
+    @media only screen and (min-width: 768px) {
+      /* For desktop: */
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+    }
+    html, body {
+      background-image: url(https://th.bing.com/th/id/OIP._mFK09OzUoNDpdW_2bbf4gHaHa?rs=1&pid=ImgDetMain);
+      background-size: 700px 600px;
+      background-repeat: no-repeat;
+    }
+    .container {
+      background-color: #2D3250;
+      background-size: cover;
+      width: 400px;
+      border-radius: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-size: 20px;
+      padding: 0px 30px 30px;
+      color: white;
+      margin-left: 20%;
+      }
+      .container img {
+        width: 100px;
+        margin-top: 40px;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        object-fit: cover;
+      }
+      h2 {
+        font-size: 38px;
+        font-weight: 500;
+        margin: 30px 0 10px;
+      }
+      button {
+        width: 100%;
+        margin-top: 50px;
+        padding: 10px 0;
+        background-color: #F6B17A;
+        color: white;
+        outline: none;
+        font-size: 18px;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+      }
+      .sale {
+        display: flex;
+      }
+  </style>
+</head>
+<body>
+  <div class="sale">
+   <div class="container">
+     <h2>Your order has been received</h2>
+     <img src="https://th.bing.com/th/id/OIP.qxFCfqOs1ThIwxQxtqkcHAHaIG?rs=1&pid=ImgDetMain" alt="tick">
+     <h3>Thank you for your purchase !</h3>
+     <p>You will receive an order confirmation email with details of your order.</p>
+     <form id="survey-form"  action="store.html" method="GET">
+       <button>CONTINUE SHOPPING</button>
+     </form>
+   </div>
+ </div>
+</body>
+</html>

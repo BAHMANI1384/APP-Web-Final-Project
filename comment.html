@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="comment.styles.css" type="text/css">
+  <title>APP-Web-Final-Project</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="team.html">Teams/Players</a> 
+    <a href="news.html">News</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="comment.html">Comments</a>
+    <a href="store.html">store</a>
+   </nav>
+   <div class="container">
+            
+    <h1 id="title">YOUR COMMENTS</h1>
+    <div class="pp"><ins> You can entering your idea here!</ins></div>
+    <form id="survey-form"  action="confirm.html" method="GET">
+     <div class="row">
+       <div class="column">
+         <label id="name-label">Name:</label>
+         <input id="name" type="text" placeholder="Name" name="name">
+        
+         <label id="email-label">Email:</label>
+         <input id="email-number" type="email" placeholder="email@example.org">
+
+         <label for="number">Number:</label>
+         <input id="number" type="number" placeholder="number with code-country" required/>
+
+         <label for="pass">Password:(8 characters)</label>
+         <input id="pass" type="password" placeholder="new Password" name="password" minlength="8" required/>
+       </div>
+       <div class="column">
+         <label id="drop">Where are you from?</label>
+         <input name="dropdown" id="place" type="text">
+         <select id="dropdown">
+
+            <option>select one</option>
+            <option  id="city-Afghanistan" value="Afghanistan">Afghanistan</option>
+            <option id="city-Iran" value="Iran">Iran</option>
+            <option id="city-korea" value="Korea">Korea</option>
+         </select>
+            
+            <label for="info">Comment:</label>
+            <textarea id="info" name="info" placeholder="(your comment)"></textarea>
+            
+            <div class="mydiv">
+            <button type="submit">SUBMIT</button>
+           </div>
+       </div>   
+     </div>
+    </form>
+    </div>
+    <footer>
+      <p class="main"> About Afghanistan Football national.</p>
+      <p>Formed in 1933 and affiliated to FIFA since 1948,</p>
+      <p>the Afghanistan Football national was one of </p>
+      <p>the founding members of Asian Football Confederation in 1954.</p>
+      <p><ins>Made by Zahra Mohammadi..~ </ins></p>
+      <img src="https://upload.wikimedia.org/wikipedia/en/4/4e/Afghanistan_Football_Federation_logo.png" class="mark" alt="mark">
+      <img src="https://th.bing.com/th/id/OIP.z1zep2JD8mvDpqxn3-Wh-wAAAA?rs=1&pid=ImgDetMain" class="mark2" alt="mark">
+    </footer>
+ </body>
+</html>

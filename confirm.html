@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APP-Web-Final-Project</title>
+  <style>
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+    @media only screen and (min-width: 600px) {
+      /* For tablets: */
+      .col-s-1 {width: 8.33%;}
+      .col-s-2 {width: 16.66%;}
+      .col-s-3 {width: 25%;}
+      .col-s-4 {width: 33.33%;}
+      .col-s-5 {width: 41.66%;}
+      .col-s-6 {width: 50%;}
+      .col-s-7 {width: 58.33%;}
+      .col-s-8 {width: 66.66%;}
+      .col-s-9 {width: 75%;}
+      .col-s-10 {width: 83.33%;}
+      .col-s-11 {width: 91.66%;}
+      .col-s-12 {width: 100%;}
+    }
+    
+    @media only screen and (min-width: 768px) {
+      /* For desktop: */
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+    }
+    html, body {
+      background-image: url(https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL3N0YXJ0dXBpbWFnZXNfcGhvdG9fb2ZfY2xvc2VfdXBfbWFsZV9wbGF5ZXJfc29jZXJfbGVnX21hbGVfaGl0c19iMmY3OWI1OC1mNzdjLTQ2YWEtOTMwOS00YjZiMzZiNWJmMDBfMS5qcGc.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .container {
+      background-color: #2D3250;
+      background-size: cover;
+      width: 400px;
+      border-radius: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-size: 20px;
+      padding: 0px 30px 30px;
+      color: white;
+      }
+      .container img {
+        width: 200px;
+        margin-top: 40px;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        object-fit: cover;
+      }
+      h2 {
+        font-size: 38px;
+        font-weight: 500;
+        margin: 30px 0 10px;
+      }
+      button {
+        width: 100%;
+        margin-top: 50px;
+        padding: 10px 0;
+        background-color: #F6B17A;
+        color: white;
+        outline: none;
+        font-size: 18px;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://th.bing.com/th/id/OIP.qxFCfqOs1ThIwxQxtqkcHAHaIG?rs=1&pid=ImgDetMain" alt="tick">
+    <h2>Thank You!</h2>
+    <p>Your details has been successfully submited for us. Thanks!</p>
+    <form id="survey-form"  action="index.html" method="GET">
+      <button>OK</button>
+    </form>
+  </div>
+</body>
+</html>
